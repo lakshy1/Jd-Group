@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JD-Group</title>
+    <link rel="stylesheet" href="certification.css" />
+    <link rel="shortcut icon" href="Resources/JD.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--Navbar-->
+      <nav>
+        <div class="logo">
+          <a href="index.html" style="text-decoration: none; color: white"
+            >JD Group</a
+          >
+        </div>
+        <ul id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="certfication.html">Certifications</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </nav>
+
+      <!-- Certification Hero Section -->
+      <section class="certifications-hero" id="certifications">
+        <div class="certifications-inner">
+          <div class="cert-text" data-animate>
+            <h5>OUR CERTIFICATIONS</h5>
+            <h1>Ensuring Quality & Compliance</h1>
+            <p>
+              At JD Group, we take pride in meeting globally accepted standards
+              of food safety, trade compliance, and export reliability. Each
+              certification strengthens our commitment to trust, credibility,
+              and systematic supply chain management.
+            </p>
+            <p class="sub">
+              From domestic approvals to global export authorizations — our
+              credentials ensure customers receive safe, regulated and
+              high-quality agricultural products.
+            </p>
+          </div>
+
+          <div class="certifications-logos">
+            <div class="cert-card" data-animate>
+              <img
+                src="/Resources/Img-6.png"
+                alt="FSSAI Certification"
+                loading="lazy"
+              />
+              <h4>FSSAI</h4>
+              <p>Food safety & hygiene compliance</p>
+            </div>
+
+            <div class="cert-card" data-animate>
+              <img
+                src="/Resources/Img-7.png"
+                alt="APEDA Certification"
+                loading="lazy"
+              />
+              <h4>APEDA</h4>
+              <p>Export of agricultural products</p>
+            </div>
+
+            <div class="cert-card" data-animate>
+              <img
+                src="/Resources/Img-8.jpg"
+                alt="UDYAM Certification"
+                loading="lazy"
+              />
+              <h4>UDYAM</h4>
+              <p>Registered MSME credibility</p>
+            </div>
+
+            <div class="cert-card" data-animate>
+              <img
+                src="/Resources/Img-9.jpeg"
+                alt="IEC Certification"
+                loading="lazy"
+              />
+              <h4>IEC</h4>
+              <p>Authorized Import–Export license</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Footer-->
+      <footer class="jd-footer">
+        <div class="footer-grid">
+          <!-- Brand + Address -->
+          <div class="footer-col">
+            <h2>JD Group</h2>
+            <p>
+              Building No.113,Ground Floor, Fawara chowk, Desaiganj, Wadsa,
+              Maharashtra, India, 441207
+            </p>
+            <p>
+              <strong>☏</strong
+              ><a href="tel:+917666363252" class="a-tag"> +917666363252</a>
+            </p>
+            <p>
+              <strong>✉</strong
+              ><a href="mailto:jdgroupmaharashtra@gmail.com" class="a-tag">
+                jdgroupmaharashtra@gmail.com</a
+              >
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="certfication.html">Certifications</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Business Divisions -->
+          <div class="footer-col">
+            <h3>Our Companies</h3>
+            <ul>
+              <li><a href="products.html#products company1">JD Overseas</a></li>
+              <li>
+                <a href="products.html#products company2">Dahikar Traders</a>
+              </li>
+              <li><a href="#home">JD Rice Industries</a></li>
+            </ul>
+          </div>
+
+          <!-- Social / CTA -->
+          <div class="footer-col">
+            <h3>Stay Connected</h3>
+            <a
+              href="https://www.instagram.com/jdgroupindia_?igsh=cTF3bWNpbWozMXlw"
+              ><img src="Resources/insta.png" alt="" height="30" loading="lazy"
+            /></a>
+            <a href="https://x.com/JDGroupIN2025" class="twitter"
+              ><img src="Resources/icons8-x-logo-100.png" alt="" loading="lazy"
+              / height="30"></a
+            >
+            <a href="https://www.linkedin.com/in/jd-group-6a70163a2/"
+              ><img src="Resources/linkedin.png" alt="" loading="lazy" /
+              height="30"></a
+            >
+
+            <button class="footer-cta">
+              <a
+                href="https://wa.me/917666363252?text=Hello%20JD%20Group%2C%20I%20would%20like%20to%20know%20more."
+                class="footer-cta whatsapp-btn"
+                target="_blank"
+              >
+                <img
+                  src="Resources/whatsapp.png"
+                  alt=""
+                  height="24"
+                  width="24"
+                  loading="lazy"
+                />Get in Touch
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="footer-bottom">© 2025 JD Group. All Rights Reserved.</div>
+      </footer>
+
+      <!--Hamburger-->
+      <script defer>
+        const hamburger = document.getElementById("hamburger");
+        const navLinks = document.getElementById("nav-links");
+
+        hamburger.addEventListener("click", () => {
+          navLinks.classList.toggle("active");
+        });
+      </script>
+
+      <!-- Script for Animations -->
+      <script defer>
+        const items = document.querySelectorAll("[data-animate]");
+
+        const revealOnScroll = () => {
+          items.forEach((el) => {
+            const top = el.getBoundingClientRect().top;
+            if (top < window.innerHeight - 100) {
+              el.classList.add("reveal");
+            }
+          });
+        };
+
+        window.addEventListener("scroll", revealOnScroll);
+        revealOnScroll();
+      </script>
+    </div>
+  </body>
+</html>
